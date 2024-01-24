@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image elements</title>
+    <style>
+
+        body {
+        
+        font-family: sans-serif;
+        
+        min-height: 100vh;
+        
+        display: flex;
+        
+        justify-content: center;
+        
+        align-items: center;
+        
+        font-size: 1.125em;
+        
+        line-height: 1.6;
+        
+        color: #333;
+        
+        padding: 2em;
+        
+        }
+        .hero {
+            display: grid;
+            grid-gap:2em;
+            align-items: center;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        @media (min-width: 960px) {
+            .hero {
+                grid-template-columns: repeat(2,1fr);
+            }
+        }
+        </style>
+</head>
+<body>
+    <div class="hero">
+        <div class="hero-teks">
+            <h1>helo wpu</h1>
+            <p>Learn how to form, develop, and express your ideas
+                 in paragraphs. Find out what a paragraph is, how
+                   to decide what to put in it, and how to organize
+                   it with different techniques. See examples of 
+                   how to write a paragraph that illustrates a 
+                   point using a 5-step process. </p>
+        </div>
+        <!-- image elements -->
+        <picture>
+            <source media="(max-width: 500px)" srcset="img2/14x19.jpg" 
+            sizes="50vw">
+            <source media="(min-width: 200px)" srcset="img2/6x8.jpg">
+            <img src="img2/3x4.jpg" alt="3x4">
+        </picture>
+    </div>
+</body>
+</html>

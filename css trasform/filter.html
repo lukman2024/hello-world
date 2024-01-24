@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img {
+            filter: blur(10px) grayscale(100%);
+            /* filter: brightness(170%); */
+            /* filter: contrast(200%); */
+            /* filter: saturate(200%); */
+            /* filter: grayscale(100%); */
+            /* filter: sepia(100%); */
+            /* filter: hue-rotate(200deg); */
+            /* filter: invert(80%); */
+            /* opacity: 0.5; */
+            /* filter: drop-shadow(5px 5px 5px); */
+            transition: 1s;
+        }
+        img:hover {
+            filter: blur(0) grayscale(0);
+        }
+    </style>
+</head>
+<body>
+    <img src="img.jpg" alt="img">
+</body>
+</html>

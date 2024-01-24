@@ -1,0 +1,29 @@
+div {
+    /* display: inline-block; */
+}
+.s1 {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    /* margin-left: 100px;
+    margin-top: 30px;
+    margin-bottom: 150px;
+    margin-right: 40px; */
+    margin: auto;
+    margin: 50px;
+}
+
+.s2 {
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    margin: auto;
+
+}
+
+.s3 {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    margin: auto;
+}

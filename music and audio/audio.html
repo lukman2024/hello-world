@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>audio and vidio</title>
+    <style>
+        body, h1 {
+            padding: 0;
+            margin: 0;
+            font-family: arial;
+
+        }
+
+        .hero {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            /* background-color: rgba(0, 0, 0, 0.3); */
+            background-image: linear-gradient(to right, rgba(160, 1, 1, 0.1),rgba(255, 255, 255, 0.2));
+            color: rgba(255, 255, 255, 0.295);
+            font-size: 3em;
+            position: relative;
+            min-height: 100vh;
+            overflow: hidden;
+        }
+        .vidio {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            min-height: 100%;
+            min-width: 100%;
+            z-index: -1;
+
+            
+        }
+    </style>
+</head>
+<body>
+    <audio src="audio/jember.mp3" controls></audio>
+
+    <figure>
+        <figcaption>
+            dengarkan "tempat"
+        </figcaption>
+        <audio controls loop muted>
+            <source src="audio/jember.mp3" type="audio/mpeg">
+            <source src="audio/name.mp3" type="audio/mpeg">
+        </audio>
+    </figure>
+
+    <video src="vidio/jj sway -_.mp4" width="400" controls></video>
+    <figure>
+        <figcaption>
+            quen
+        </figcaption>
+        <video controls width="200" poster="vidio/jj quen keqing.mp4">
+            <source src="vidio/jj quen keqing.mp4" type="video/mp4">
+            <source src="vidio/videoplayback.webm" type="video/webm">
+            broser tidk mendukung tag <code>vidio</code>
+        </video>
+    </figure>
+    <div class="hero">
+        <h1>hallo guys</h1>
+        <video class="vidio" src="vidio/Background.mp4" autoplay loop muted></video>
+    </div>
+
+    <video controls width="400">
+        <source src="vidio/without.mp4" type="video/mp4">
+        <track src="caption/caption2.vtt" kind="captions" title="bahasa indonesia" srclang="id">
+        <track src="caption/caption2.vtt" kind="captions" title="englis" srclang="en">
+    </video>
+    
+</body>
+</html>

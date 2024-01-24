@@ -1,0 +1,24 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1, h2 {
+    color: aqua;
+}
+
+ul li a {
+    color: bisque;
+    text-decoration: none;
+}
+
+ol li a {
+    color: red;
+    text-decoration: none;
+}
+
+#p1 {
+    color: aquamarine;
+}
+
+.p2 {
+    color: blue;
+}

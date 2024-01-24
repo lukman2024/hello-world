@@ -1,0 +1,44 @@
+/* ketika belum ter click sama sekali */
+.hello:link {
+    color: rgb(21, 255, 0);
+}
+/* ketika di sorot */
+.hello:hover {
+    color: pink;
+    font-family: arial;
+    font-size: 20px;
+}
+/* ketika di click  */
+.hello:active {
+    font-style: italic;
+}
+/* visited ketika sudah di klick */
+.hello:visited {
+    color: red;
+}
+
+
+
+li:first-child a{
+    color: aquamarine;
+}
+
+li:last-child a {
+    color: red;
+}
+
+Li:nth-child(3) a {
+    color: orchid;
+}
+
+li:nth-child(3) a:hover {
+    font-size: 8px;
+}
+
+p:first-of-type {
+    color: aqua;
+}
+
+p:last-of-type {
+    color: red;
+}
